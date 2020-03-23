@@ -6,7 +6,7 @@
 
 This small app (beta version, wip) aims at giving users equivalent of their carbon footprint in terms of distance/transportation modes they could do with a given CO2 amount.
   
-  
+  ![Capture d’écran 2020-03-23 à 16 13 42](https://user-images.githubusercontent.com/36134318/77332123-ea459b00-6d21-11ea-9dfe-daec3d9ad083.png)
   
   
 
