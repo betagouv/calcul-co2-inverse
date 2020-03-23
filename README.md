@@ -1,3 +1,7 @@
+<beta version>
+This small app aims at giving users equivalent of their carbon footprint in terms of distance/transportation modes they could do with a given CO2 amount.
+  
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
