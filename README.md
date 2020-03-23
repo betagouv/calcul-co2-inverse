@@ -1,5 +1,14 @@
+
+# FROM 11T/CO2 per person to 2T/CO2 by 2050
+## let's start acting on our global environmental footprint, by first, have a clear and relevant insight of what represents carbon and how much are we consuming it...
+
+
+
 <beta version>
 This small app aims at giving users equivalent of their carbon footprint in terms of distance/transportation modes they could do with a given CO2 amount.
+  
+  
+  
   
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
