@@ -5,8 +5,10 @@
   position: absolute;
   top: 100px;
   left: 100px;
-  margin: 100px;
+  margin-top: 80px;
 }
+
+
 
 textarea:focus, input:focus, button:focus {
     outline: none;
