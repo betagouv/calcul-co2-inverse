@@ -13,20 +13,20 @@ export default ({  }) => {
 
     const buttonStyle = {
       padding: '0.5em',
-      borderRadius: '26px',
       backgroundColor: 'transparent',
-      color: 'grey',
-      margin: '10px',
+      fontSize: '30px',
+      borderColor: 'transparent',
     }
 
     const elementStyle ={
-      backgroundColor: 'transparent',
-      margin: '5vh',
+      backgroundColor: 'white',
+      margin: '10px',
+      padding: '8px',
       width: '50px',
       borderStyle: 'none none solid',
       borderWidth: '1px 1px 3px',
       borderColor: '#000',
-      borderRadius: '0px',
+      borderRadius: '30px',
       fontFamily: 'sans-serif',
       fontSize: '16px',
       lineHeight: '20px',
@@ -55,7 +55,7 @@ export default ({  }) => {
                     <div className='test' style={{
                       position: 'absolute',
                       top: index * 85,
-                      left: result * data.kmperkg / 100,
+                      left: result * data.kmperkg / 10,
                       maxLeft: '3000px',
                       right: '0px',
                       bottom: '0px',
@@ -92,7 +92,7 @@ export default ({  }) => {
     return (
 
       <div style={{display: 'flex', flexDirection: 'column',}}>
-        <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', marginLeft: '100px',}}>
+        <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', marginLeft: '100px', fontWeight: 'bold', fontSize: '20px',}}>
             <p>Avec</p>
             <input value={value} type="number" placeholder="Nb" style={elementStyle} onChange={(e) => setValue(e.target.value)}
             />
@@ -100,21 +100,26 @@ export default ({  }) => {
 
 
             <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', marginLeft: '100px',}}>
-                <button onClick={()=> setValue(0)} style={buttonStyle}> 🏁  Départ </button>
+                <button onClick={()=> setValue(0)} style={buttonStyle}> 🏁</button>
             </div>
 
 
           {items}
           </div>
 
-        <p style={{marginLeft: '100px', fontSize: '14px',}}>Soit un équivalent de 3 🍻   et 2 🍋   </p>
+        <p style={{marginLeft: '100px', fontSize: '14px',}}></p>
 
         <div style={{marginLeft: '100px', display: 'flex', flexDirection: 'row',}}>
-            <p style={{marginLeft: '0px', fontSize: '12px',}}>Bordeaux</p>
-            <p style={{marginLeft: '200px', fontSize: '12px',}}> 📌 Amsterdam</p>
-            <p style={{marginLeft: '700px', fontSize: '12px',}}> 📌 Bangkok</p>
+            <p style={{marginLeft: '0px', fontSize: '14px', color: 'white', fontWeight: 'bold',}}>Bordeaux</p>
+            <p style={{marginLeft: '40px', fontSize: '14px', color: 'white', fontWeight: 'bold',}}> Amsterdam</p>
+            <p style={{marginLeft: '810px', fontSize: '14px', color: 'white', fontWeight: 'bold',}}> Bangkok</p>
         </div>
-        <hr style={{marginLeft: '100px', borderTop: '10px dashed grey', borderBottom: 'none', width: '1100px',}}></hr>
+        <hr style={{marginLeft: '100px', borderTop: '10px dashed white', borderBottom: 'none', width: '1500px',}}></hr>
+        <div style={{marginLeft: '100px', display: 'flex', flexDirection: 'row',}}>
+            <p style={{marginLeft: '0px', fontSize: '10px', color: 'white', fontWeight: 'bold',}}>🚩 0</p>
+            <p style={{marginLeft: '100px', fontSize: '10px', color: 'white', fontWeight: 'bold',}}>🚩 1 000 km</p>
+            <p style={{marginLeft: '810px', fontSize: '10px', color: 'white', fontWeight: 'bold',}}>🚩 10 000 km</p>
+        </div>
       </div>
 
     )

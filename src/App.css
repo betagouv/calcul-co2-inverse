@@ -22,11 +22,16 @@ button:active {
 
 .App {
   text-align: center;
+
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -49,6 +54,11 @@ button:active {
 
 .App-link {
   color: #61dafb;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1533073526757-2c8ca1df9f1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+  background-repeat: no-repeat;
 }
 
 @keyframes App-logo-spin {
